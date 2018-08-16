@@ -48,35 +48,105 @@ p {
     width: 100%;
     border-bottom: 2px solid #dddddd;
 }
-#kitten {
+.kitten {
     float: left;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
+    margin: 30px 20px;
+    position: relative;
+    display: inline-block;
+}
+.kitten-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 0px;
+    right: 60px;
+    width: 100px;
+    }
+.sky {
+    float: left;
+    position: relative;
+    height: 100px;
+    width: 100px;
     margin: 30px 20px;
 }
-#sky {
-    float: right;
-    height: 300px;
-    width: 300px;
-    margin: 30px 20px;
+.sky-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: -55px;
+    right: -100px;
+    width: 160px;
 }
-#laptop {
+.laptop {
     float: left;
     clear: both;
-    height: 300px;
-    width: 300px;
+    position: relative;
+    height: 200px;
+    width: 200px;
     margin: 30px 20px;
 }
-#capitol {
-    float: right;
-    height: 300px;
-    width: 300px;
+.laptop-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 30px;
+    right: 0px;
+    width: 160px;
+}
+.capitol {
+    float: left;
+    position: relative;
+    height: 200px;
+    width: 200px;
     margin: 30px 20px;
 }
-#bridge {
+.capitol-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 30px;
+    right: 0px;
+    width: 160px;
+}
+.bridge {
     float: left;
     clear: both;
-    height: 300px;
-    width: 300px;
+    position: relative;
+    height: 200px;
+    width: 200px;
     margin: 30px 20px;
+}
+.bridge-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    bottom: 30px;
+    right: 0px;
+    width: 160px;
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
 }
